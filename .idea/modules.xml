@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PhotoEditApplication.iml" filepath="$PROJECT_DIR$/PhotoEditApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getlcationtest/getlcationtest.iml" filepath="$PROJECT_DIR$/getlcationtest/getlcationtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoedit/photoedit.iml" filepath="$PROJECT_DIR$/photoedit/photoedit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjavademo/rxjavademo.iml" filepath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testphotoaddwrite/testphotoaddwrite.iml" filepath="$PROJECT_DIR$/testphotoaddwrite/testphotoaddwrite.iml" />
+    </modules>
+  </component>
+</project>

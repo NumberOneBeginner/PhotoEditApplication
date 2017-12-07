@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.peter.photoeditapplication.MainActivity">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/img_background"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#000000" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/img_splash"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@mipmap/splash1" />-->
+    <Button
+        android:id="@+id/btn_open_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open camera"
+        android:textAllCaps="true" />
+
+    <ImageView
+        android:id="@+id/img_camera_callback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_open_camera" />
+
+    <Button
+        android:id="@+id/btn_photo_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="open camera"
+        android:textAllCaps="true"
+        android:visibility="gone" />
+</RelativeLayout>
